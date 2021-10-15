@@ -1,0 +1,20 @@
+{
+  "name": "simple-console",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:NeverSeeBefore/simpleConsole.git",
+  "author": "chenxiaoxu <v_chenxiaoxu01@baidu.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist & tsc",
+    "dev": "nodemon --watch src -e ts --exec npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.5",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.3.0"
+  }
+}
